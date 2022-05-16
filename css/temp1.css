@@ -1,0 +1,308 @@
+.topnav {
+    overflow: hidden;
+    background-color: whitesmoke;
+  }
+.logo{
+      width:6%;
+  }
+.topnav a {
+    float: right;
+    color: #180808;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial;
+ }
+ .sec1{
+     width:100%;
+     height:auto;
+     display: flex;
+    position: relative;
+    
+ }
+ .s1-img{
+     position: absolute;
+     width: 50%;
+     height: 600px;
+     left:0px;
+     
+
+ }
+ .s1-text{
+     position: absolute;
+     width:50%;
+     font-family:Arial, Helvetica, sans-serif;
+     color: rgb(59, 59, 78);
+     font-size: 100%;
+     right: 0px;
+     top:150px;
+     left:800px;
+     
+ }
+ .s1-background{
+     position: relative;
+    width:100%;
+    display: flex;
+    height: 600px;
+ }
+ .button{
+    background-color: rgb(76, 62, 85);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+ }
+ .sec2{
+    width:100%;
+    height:auto;
+    position: relative;
+    background-color: white;
+   
+}
+.s2-txt{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(59, 59, 78);
+    font-size: 120%;
+    text-align: center;
+}
+ .column2 {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    position: relative;
+    left:120px;
+    padding-bottom: 20px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 18px;
+    text-align: center;
+    background-color: rgb(231, 231, 88);
+    border-radius: 30px;
+    
+    
+ }
+ .s2-img{
+     width: 90px;
+     height: 90px;
+ }
+ .sec3{
+    width:100%;
+    position: relative;
+ }
+.s3-text{
+    position: absolute;
+    background-color: white;
+    border-radius: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(59, 59, 78);
+    font-size: 120%;
+    right: 0px;
+    top:810px;
+    left:860px;
+    padding: 15px;
+    width:29%;
+
+}
+.sec4{
+    width:100%;
+    position: relative;
+    background-color: white;
+    display:flex;
+    padding: 50px;
+    
+}
+.s4-text{
+    font-size:xx-large;
+    font-family:Arial; 
+}
+.s4-column1 {
+    position: absolute;
+    width:60%;
+    font-family: Arial;
+    padding: 40px;
+    height: 350px;
+    border-radius: 40px;
+    border-spacing: 5px;
+}
+.s4-column2 {
+    position: absolute;
+    width:40%;
+    background-color: rgb(231, 231, 88);
+    left:680px;
+    padding: 28px;
+    height: 350px;
+    border-radius: 44px;
+    border-spacing: 5px;
+}
+.t{
+    text-align: center;
+    padding: 15px;
+}
+.sec5 {
+    position:absolute; 
+    width: 100%;
+    height:550px;
+    background-color: rgb(233, 233, 35);
+    margin-top:380px;
+    
+  
+  }
+  .s5-img{
+    position: absolute;
+    height:60%;
+    width: 40%;
+    border-radius: 40px;
+    margin-top: 5px;
+  }
+  .box-txt{
+    text-align: center;
+    font-size: 200%;
+    padding:20px;
+    
+  }
+  .box {
+    background:darkslategray;
+    position:absolute;
+    border-radius: 30px;
+    color: white;
+    height: 150px;
+    width: 300px;
+    top:200px;
+    left:450px;
+    
+  }
+  .s5-p1{
+    width: 30%;
+    text-align: left;
+    position:absolute;
+    top:350px;
+    left:500px;
+    font-size: 20px;
+  }
+  .s5-p2{
+    width: 30%;
+    text-align: left;
+    position:absolute;
+    top:200px;
+    left:910px;
+    font-size: 20px;
+  }
+
+  .sec6{
+    width:100%;
+    position: relative;
+    margin-top:490px;
+  }
+  .s6-text{
+    position: absolute;
+    background-color: white;
+    border-radius: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(59, 59, 78);
+    font-size: 120%;
+    right: 0px;
+    top:810px;
+    left:860px;
+    padding: 15px;
+    width:29%;
+
+  }
+
+  .sec7{
+    position:relative;
+    background-color: rgb(233, 233, 35);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    text-align: center;
+}
+.table-image{
+    
+    width: 100%;
+    float: center;
+     padding:10px;
+
+ }
+ td{
+     padding: 5px;
+ }
+ .sec8-column {
+    flex: 40%;
+    padding: 50px;
+    height: 300px;
+    background-color:rgb(233, 233, 35);
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    background-color: #daeee7;
+   }
+
+   /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+     background-color: #252c29;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     width:100%;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+     background-color: #56a8df;
+  }
+
+  /* Add a background color and some padding around the form */
+ .f-container {
+    border-radius: 5px;
+    background-color: white;
+    
+  }
+  .s8-column{
+      /* margin-top: 5px; */
+      margin-left: 20px;
+      background-color:white;
+      width:50%
+  }
+  .img-icon{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    
+  }
+  .s8-img{
+      float: right;
+      border-radius: 20px;
+  }
+  .s8{
+    background-color:white;
+    display: flex;
+
+  }
+  .sec-9{
+    background-color: #141313;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    height: 30%;
+    padding: 20px;
+}
+
+
